@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.back-link {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: #667eea;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+    color: #764ba2;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 2.5em;
+}
+
+.subtitle {
+    text-align: center;
+    color: #666;
+    margin-bottom: 40px;
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.download-hero {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    padding: 50px;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.app-preview {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.app-icon {
+    font-size: 5em;
+    margin-bottom: 20px;
+}
+
+.download-hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.version {
+    font-size: 1em;
+    opacity: 0.9;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+h2 {
+    color: #667eea;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.platforms h2 {
+    margin-bottom: 40px;
+}
+
+.platform-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+.platform-card {
+    background-color: #f8f9fa;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    border: 2px solid #e0e0e0;
+}
+
+.platform-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+    border-color: #667eea;
+}
+
+.platform-icon {
+    font-size: 4em;
+    margin-bottom: 15px;
+}
+
+.platform-card h3 {
+    color: #333;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.platform-info {
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.file-size {
+    color: #888;
+    font-size: 0.9em;
+    margin-bottom: 20px;
+}
+
+.btn-download {
+    width: 100%;
+    padding: 15px;
+    background-color: #667eea;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    margin-bottom: 10px;
+}
+
+.btn-download:hover {
+    background-color: #764ba2;
+    transform: translateY(-2px);
+}
+
+.alternative-link {
+    display: block;
+    color: #667eea;
+    text-decoration: none;
+    font-size: 0.9em;
+    margin-top: 10px;
+}
+
+.alternative-link:hover {
+    text-decoration: underline;
+}
+
+.mobile-section {
+    background-color: #f8f9fa;
+    padding: 40px;
+    border-radius: 15px;
+}
